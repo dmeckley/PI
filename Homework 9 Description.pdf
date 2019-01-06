@@ -1,0 +1,281 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<< /F1 2 0 R /F2 3 0 R /F3 7 0 R >>
+endobj
+2 0 obj
+<< /BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font >>
+endobj
+3 0 obj
+<< /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font >>
+endobj
+4 0 obj
+<< /A << /S /URI /Type /Action /URI (https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG) >> /Border [ 0 0 0 ] /Rect [ 101.0529 689.0236 131.6129 701.0236 ] /Subtype /Link /Type /Annot >>
+endobj
+5 0 obj
+<< /A << /S /URI /Type /Action /URI (http://openmp.org/mp-documents/Intro_To_OpenMP_Mattson.pdf) >> /Border [ 0 0 0 ] /Rect [ 254.9929 689.0236 280.5529 701.0236 ] /Subtype /Link /Type /Annot >>
+endobj
+6 0 obj
+<< /A << /S /URI /Type /Action /URI (http://openmp.org/mp-documents/Mattson_OMP_exercises.zip) >> /Border [ 0 0 0 ] /Rect [ 302.7929 689.0236 357.2629 701.0236 ] /Subtype /Link /Type /Annot >>
+endobj
+7 0 obj
+<< /BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font >>
+endobj
+8 0 obj
+<< /Annots [ 4 0 R 5 0 R 6 0 R ] /Contents 15 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 14 0 R /Resources << /Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ] >> /Rotate 0 
+  /Trans <<  >> /Type /Page >>
+endobj
+9 0 obj
+<< /Outlines 11 0 R /PageLabels 16 0 R /PageMode /UseNone /Pages 14 0 R /Type /Catalog >>
+endobj
+10 0 obj
+<< /Author () /CreationDate (D:20160411195626+06'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20160411195626+06'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Homework 9: Introduction to OpenMP) /Trapped /False >>
+endobj
+11 0 obj
+<< /Count 2 /First 12 0 R /Last 13 0 R /Type /Outlines >>
+endobj
+12 0 obj
+<< /Dest [ 8 0 R /XYZ 62.69291 647.0236 0 ] /Next 13 0 R /Parent 11 0 R /Title (Calculating pi) >>
+endobj
+13 0 obj
+<< /Dest [ 8 0 R /XYZ 62.69291 340.8236 0 ] /Parent 11 0 R /Prev 12 0 R /Title (Turning it in) >>
+endobj
+14 0 obj
+<< /Count 1 /Kids [ 8 0 R ] /Type /Pages >>
+endobj
+15 0 obj
+<< /Length 4896 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 55.48488 0 Td (Homework 9: Introduction to OpenMP) Tj T* -55.48488 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 719.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (Due Date: ) Tj /F1 10 Tf (Before class on Thursday, April 28th.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 689.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .969987 Tw 12 TL /F1 10 Tf 0 0 0 rg (We watched Tim Mattson give an introduction to OpenMP. You can find all the videos we watched in a) Tj T* 0 Tw (youtube ) Tj 0 0 .501961 rg (playlist) Tj 0 0 0 rg (, which also has links to his ) Tj 0 0 .501961 rg (slides ) Tj 0 0 0 rg (and ) Tj 0 0 .501961 rg (source code) Tj 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 659.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .840651 Tw 12 TL /F1 10 Tf 0 0 0 rg (For this assignment, the first twelve videos \(ending with "Introduction to OpenMP: 10 Discussion 4"\) are) Tj T* 0 Tw (relevant. We didn't watch all of these in class!) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 626.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Calculating pi) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 596.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.98061 Tw (You will follow Mattson's example, write some OpenMP code, and time it to see a parallel speedup.) Tj T* 0 Tw (Specifically:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 590.0236 cm
+Q
+q
+1 0 0 1 62.69291 590.0236 cm
+Q
+q
+1 0 0 1 62.69291 566.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (1.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 2.855318 Tw 12 TL /F1 10 Tf 0 0 0 rg (Start with the ) Tj /F3 10 Tf 0 0 0 rg (pi.c ) Tj /F1 10 Tf 0 0 0 rg (from his example code. Move the calculation loop into a function called) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (serial_pi) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 560.0236 cm
+Q
+q
+1 0 0 1 62.69291 536.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (2.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm .876303 Tw 12 TL /F1 10 Tf 0 0 0 rg (I asked you to try parallelizing the code after the second day of videos. Put that code in a function) Tj T* 0 Tw /F3 10 Tf 0 0 0 rg (my_parallel_pi) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 530.0236 cm
+Q
+q
+1 0 0 1 62.69291 506.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (3.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 1.056412 Tw 12 TL /F1 10 Tf 0 0 0 rg (Mattson's presentation and example code have a few tricks that may make the parallel calculation) Tj T* 0 Tw (even faster. Put that code into a function ) Tj /F3 10 Tf 0 0 0 rg (final_parallel_pi) Tj /F1 10 Tf 0 0 0 rg (.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 500.0236 cm
+Q
+q
+1 0 0 1 62.69291 382.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 102.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (4.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 90.2 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .186654 Tw (Have your code call the functions, timing the completion time, and print the result in a simple table. It) Tj T* 0 Tw (should look like:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 445.6898 84 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F3 10 Tf 12 TL (                    execution time \(sec.\) for threads:) Tj T* (code                1       2       3       4) Tj T* (------------------------------------------------------) Tj T* (serial              10.1    -       -       -) Tj T* (my_parallel         10.5    8.3     6.5     5.7) Tj T* (final_parallel      10.4    5.7     3.2     2.7) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 376.8236 cm
+Q
+q
+1 0 0 1 62.69291 352.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (5.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.221988 Tw (Put a copy of the output in a comment at the top of your code, as well as information about your) Tj T* 0 Tw (computer's CPU: type, speed, number of cores.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 352.8236 cm
+Q
+q
+1 0 0 1 62.69291 319.8236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Turning it in) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 301.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Make a folder labeled ) Tj /F3 10 Tf 0 0 0 rg (Homework) Tj ( ) Tj (09 ) Tj /F1 10 Tf 0 0 0 rg (in your turn-in folder, and copy in your source code.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+16 0 obj
+<< /Nums [ 0 17 0 R ] >>
+endobj
+17 0 obj
+<< /S /D /St 1 >>
+endobj
+xref
+0 18
+0000000000 65535 f
+0000000075 00000 n
+0000000129 00000 n
+0000000239 00000 n
+0000000354 00000 n
+0000000581 00000 n
+0000000794 00000 n
+0000001005 00000 n
+0000001113 00000 n
+0000001352 00000 n
+0000001460 00000 n
+0000001756 00000 n
+0000001833 00000 n
+0000001951 00000 n
+0000002068 00000 n
+0000002131 00000 n
+0000007084 00000 n
+0000007128 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com)
+ [(\307\211\205\266\007.\345\022>Fb\304vu\353\366) (\307\211\205\266\007.\345\022>Fb\304vu\353\366)]
+ /Info 10 0 R /Root 9 0 R /Size 18 >>
+startxref
+7165
+%%EOF
